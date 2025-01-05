@@ -1,0 +1,40 @@
+/* Styles pour l'interface d'administration des offres */
+.deal-meta-box {
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.deal-meta-box label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.deal-meta-box input[type="text"],
+.deal-meta-box input[type="number"],
+.deal-meta-box input[type="date"],
+.deal-meta-box select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.deal-meta-box input[type="number"] {
+    max-width: 200px;
+}
+
+/* Colonnes personnalisées dans la liste des offres */
+.column-deal_price,
+.column-deal_location,
+.column-deal_date {
+    width: 15%;
+}
+
+.column-deal_type {
+    width: 10%;
+}

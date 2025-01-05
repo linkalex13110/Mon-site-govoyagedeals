@@ -1,0 +1,82 @@
+/*
+Theme Name: Voyage Deals
+Theme URI: https://govoyagesdeals.fr
+Author: GoVoyagesDeals
+Author URI: https://govoyagesdeals.fr
+Description: Un thème moderne pour les offres de voyage, avec support pour les hôtels, vols et forfaits vacances.
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 6.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: voyage-deals
+Tags: travel, hotels, flights, vacation-packages, custom-logo, custom-menu, featured-images
+
+Ce thème est conçu pour les agences de voyage et les sites de réservation en ligne.
+*/
+
+/* Base styles */
+body {
+    font-family: 'Inter', sans-serif;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+/* Header */
+.site-header {
+    background: linear-gradient(to right, #2563eb, #4f46e5);
+    padding: 1rem 0;
+}
+
+/* Navigation */
+.main-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+/* Content */
+.site-content {
+    padding: 2rem 0;
+}
+
+/* Footer */
+.site-footer {
+    background: linear-gradient(to right bottom, #111827, #312e81);
+    color: #fff;
+    padding: 4rem 0 1rem;
+}
+
+/* Cards */
+.card {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.button {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.75rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.button-primary {
+    background: linear-gradient(to right, #2563eb, #4f46e5);
+    color: #fff;
+}
+
+.button-primary:hover {
+    background: linear-gradient(to right, #1d4ed8, #4338ca);
+}
